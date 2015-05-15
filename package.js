@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cybit:blog',
-  summary: 'A fork of xolvio:md-blog that uses FlowRouter instead of Iron Router. xolvio:md-blog is a markdown powered blog with i18n and lots of cutomization options.',
+  summary: 'A fork of xolvio:md-blog that uses FlowRouter instead of Iron Router with some other changes',
   version: '1.0.0',
   git: 'https://github.com/scorpwarp23/cybit-blog'
 });
