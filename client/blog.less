@@ -1,0 +1,96 @@
+section.blog-controls {
+
+}
+
+.blog-list {
+  margin: 20px;
+  height: 100%;
+  .blog-post {
+    margin: 50px 0;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+
+    header {
+      h1 {
+        margin: 0;
+      }
+      .info {
+        border-bottom: 1px dashed rgba(0,0,0,0.2);
+        opacity: .8;
+        .author {
+        }
+        time {
+        }
+      }
+    }
+    summary {
+      margin: 20px auto;
+      max-width: 60em;
+    }
+  }
+}
+
+.blog-post {
+  header {
+    h1 {
+    }
+    .info {
+      color: #666;
+
+      .author {
+        font-weight: bold;
+        color: orange;
+      }
+      time {
+        font-style: italic;
+      }
+    }
+  }
+  article {
+    &.editing {
+      float: left;
+      background-color: rgba(0,0,0,.1);
+      width: 49%;
+      margin-top: 1em;
+    }
+  }
+  #mdblog-clone {
+    float: right;
+    width: 49%;
+  }
+}
+
+#mdblog-new {
+  background-color: rgba(0,0,0,1);
+  float: none !important;
+}
+
+#mdblog-save {
+  background-color: rgba(0,0,0,1);
+}
+
+#mdblog-unpublish {
+  background-color: rgba(0,0,0,1);
+}
+
+#mdblog-publish {
+  background-color: rgba(0,0,0,1);
+}
+
+#mdblog-archive {
+  background-color: rgba(0,0,0,1);
+}
+
+#mdblog-unarchive {
+  background-color: rgba(0,0,0,1);
+}
+
+#mdblog-delete {
+  background-color: rgba(0,0,0,1);
+}
+
+
+.blog-image{
+  margin: 0px 1rem 1rem 0px;
+  float: left;
+  max-width: 20%;
+}
