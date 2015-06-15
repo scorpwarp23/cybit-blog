@@ -1,3 +1,28 @@
+##From a thread in the Issues section
+==============
+
+My whole reason for re-packaging this awesome blog package was cause our front page [Linkwok], is built using Meteor and we are using [FlowRouter] for routing. I wanted to add the blog capability. You can see it in action at [Linkwok Blog]. The existing package used [Iron Router] so I chose to update it. 
+
+IMHO FlowRouter is a massively elegant way of routing in Meteor as compared to [Iron Router] which has gotten incredibly bloated. Granted FlowRouter does not work on older browsers that don't have [Push State] support so it just won't work on IE9 etc. - period - but it is incredibly more efficient and lightweight. It handles subscriptions etc. way better and [Arunoda] & Team at [MeteorHacks] have really overcome the issues that we have faced with Iron Router in the past. 
+
+
+Fundamentally, the changes are as follows:
+
+ - Using [FlowRouter] by MeteorHacks in place of [Iron Router]. 
+ - Allowing users to add an image for each article - i.e. a core picture for every article that appears on the list of articles. 
+
+##I will update this Readme and the package so it is far more efficient and more "plug & play" over the coming weeks. 
+ 
+[Flowrouter]:https://github.com/meteorhacks/flow-router
+[Iron Router]:https://github.com/iron-meteor/iron-router
+[Linkwok]:https://www.linkwok.com
+[Linkwok Blog]:https://www.linkwok.com/blog
+[Push State]:https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history#The_pushState()_method
+[Arunoda]:https://github.com/arunoda
+[MeteorHacks]:https://github.com/meteorhacks
+
+
+
 xolvio:md-blog
 ==============
 
