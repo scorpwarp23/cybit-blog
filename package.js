@@ -10,7 +10,7 @@ Npm.depends({});
 Package.on_use(function (api) {
 
   // APIs
-  api.use(['meteor-platform@1.2.2', 'less@1.0.11']);
+  api.use(['meteor-platform@1.2.2', 'less@1.0.11 || 2.5.0']);
   api.use(['spiderable@1.0.7']);
 
 
