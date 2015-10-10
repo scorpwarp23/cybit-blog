@@ -56,11 +56,11 @@ First you need to define two templates that the blog in your app that look like 
 
 ```html
 <template name="blogListLayout">
-  {{> yield}}
+    {{> Template.dynamic template=main}}
 </template>
 
 <template name="blogPostLayout">
-  {{> yield}}
+    {{> Template.dynamic template=main}}
 </template>
 ```
 
@@ -70,7 +70,7 @@ You may want to customize these template further like adding disqus for instance
 
 ```html
 <template name="blogPostLayout">
-  {{> yield}}
+  {{> Template.dynamic template=main}}
   {{> disqus}}
 </template>
 ```
